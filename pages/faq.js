@@ -1,6 +1,15 @@
-import FAQScreen from '../src/screens/FAQScreen';
 
+// import Head from 'next/head'
+// import Link from '../src/components/Link';
+import FAQScreen from '../src/screens/FAQScreen';
 export default FAQScreen; 
+// SSG - Static Site Generation
+// SSR - Server Side Rendering
+// ISG - Incremental Static Generation
+
+// export async function getServerSideProps() {
+//     console.log('Em modo DEV, sempre roda! A cada acesso')
+//     console.log('Rodando a cada acesso que você recebe')
 // getStaticProps => serve para sites estaticos , roda somente 1 vez em build time
 //  |<- getServerSideProps => roda pra cada acesso que vc fizer na pagina
 //  |-> em modo dev, sempre roda em cada acesso
@@ -22,4 +31,4 @@ export async function getStaticProps() {
           faq,
       },
     };
-}  
+} 
